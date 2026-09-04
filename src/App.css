@@ -239,7 +239,7 @@
   gap: 3.5rem;
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 3rem 2rem 5rem;
+  padding: 7.5rem 2rem 5rem;
 }
 
 
@@ -1948,18 +1948,12 @@
 }
 
 
-/* ==========================================================================
-   RESPONSIVE DESIGN & MEDIA QUERIES (TABLET & MOBILE)
-   ========================================================================== */
-
-/* Tablet & Smaller Laptops (<= 1024px) */
 @media (max-width: 1024px) {
-  /* Hero Section */
   .hero {
     flex-direction: column;
     text-align: center;
     gap: 3.5rem;
-    padding: 2.5rem 1.5rem 4.5rem;
+    padding: 6.5rem 1.5rem 4.5rem;
   }
 
   .hero::before {
@@ -2017,7 +2011,6 @@
     right: 25px;
   }
 
-  /* Support Section */
   .support-section {
     padding: 4.5rem 1.5rem;
   }
@@ -2033,7 +2026,6 @@
     width: 100%;
   }
 
-  /* Features Section */
   .features-section {
     padding: 4.5rem 1.5rem;
   }
@@ -2050,7 +2042,6 @@
     gap: 2rem;
   }
 
-  /* Benefits Section */
   .benefits-section {
     padding: 4.5rem 1.5rem;
   }
@@ -2091,7 +2082,6 @@
     left: -20px;
   }
 
-  /* Pricing Section */
   .pricing-section {
     padding: 4.5rem 1.5rem 5.5rem;
   }
@@ -2111,7 +2101,6 @@
     transform: translateY(-6px);
   }
 
-  /* Testimonials Section */
   .testimonials-section {
     padding: 4.5rem 1.5rem 4rem;
   }
@@ -2136,7 +2125,6 @@
     max-width: 100%;
   }
 
-  /* Footer Section */
   .footer {
     padding: 4rem 1.5rem 2.5rem;
   }
@@ -2156,7 +2144,6 @@
   }
 }
 
-/* Tablet & Mobile Navigation Switch (<= 900px) */
 @media (max-width: 900px) {
   .navbar {
     padding: 1.25rem 1.5rem;
@@ -2180,7 +2167,6 @@
   }
 }
 
-/* Tablets Portrait & Large Mobile (<= 768px) */
 @media (max-width: 768px) {
   :root {
     --fs-h1: 2.35rem;
@@ -2188,7 +2174,6 @@
     --section-padding-y: 4rem;
   }
 
-  /* Logo Cloud */
   .logo-cloud {
     padding: 2rem 1.25rem 3.5rem;
   }
@@ -2211,7 +2196,6 @@
     font-size: 1.4rem;
   }
 
-  /* Support Section */
   .support-section__heading {
     font-size: 1.85rem;
   }
@@ -2221,7 +2205,6 @@
     flex-wrap: wrap;
   }
 
-  /* Features Section */
   .features-section__heading {
     font-size: 1.85rem;
   }
@@ -2232,13 +2215,11 @@
     margin: 0 auto;
   }
 
-  /* Benefits Section */
   .benefits-section__heading {
     font-size: 1.85rem;
     margin-bottom: 1.75rem;
   }
 
-  /* Pricing Section */
   .pricing-section__heading {
     font-size: 2.1rem;
   }
@@ -2249,19 +2230,16 @@
     margin: 0 auto;
   }
 
-  /* Testimonials Section */
   .testimonials-section__heading {
     font-size: 2.1rem;
   }
 
-  /* Footer */
   .footer__nav-cols {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.25rem;
   }
 }
 
-/* Mobile Devices (<= 640px) */
 @media (max-width: 640px) {
   .navbar {
     padding: 1rem 1.25rem;
@@ -2271,9 +2249,8 @@
     font-size: 1.6rem;
   }
 
-  /* Hero Section */
   .hero {
-    padding: 2rem 1rem 3.5rem;
+    padding: 5.5rem 1rem 3.5rem;
     gap: 2.75rem;
   }
 
@@ -2303,7 +2280,6 @@
     font-size: 0.95rem;
   }
 
-  /* Scaled and safely contained hero visual for mobile */
   .hero__visual {
     max-width: 295px;
     margin: 1rem auto 0;
@@ -2391,7 +2367,6 @@
     bottom: -10px;
   }
 
-  /* Support Section */
   .support-section {
     padding: 3.5rem 1.25rem;
   }
@@ -2404,7 +2379,6 @@
     gap: 1.5rem;
   }
 
-  /* Features Section */
   .features-section {
     padding: 3.5rem 1.25rem;
   }
@@ -2413,7 +2387,6 @@
     height: 220px;
   }
 
-  /* Benefits Section */
   .benefits-section {
     padding: 3.5rem 1.25rem;
   }
@@ -2486,7 +2459,6 @@
     height: 18px;
   }
 
-  /* Pricing Section */
   .pricing-section {
     padding: 3.5rem 1.25rem 4.5rem;
   }
@@ -2505,7 +2477,6 @@
     border-radius: 20px;
   }
 
-  /* Testimonials Section */
   .testimonials-section {
     padding: 3.5rem 1.25rem 3rem;
   }
@@ -2527,7 +2498,6 @@
   .cta-card__title {
     font-size: 1.4rem;
   }
-
 
   .footer {
     padding: 3.5rem 1.25rem 2rem;
@@ -2554,7 +2524,6 @@
     flex-wrap: wrap;
   }
 }
-
 
 @media (max-width: 440px) {
   .footer__nav-cols {
